@@ -6,6 +6,8 @@ Requirements
 
 
 Usage
+- copy file vars.tfvars-example to vars.tfvars
+- update values at vars.tfvars file. Keep it in secret
 - terraform init
 - terraform apply (may need to run multiple times, some resources need time to spin up)
 - you may connect to kluster with --kubeconfig option 
